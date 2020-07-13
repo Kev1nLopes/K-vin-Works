@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #000000;
+}
+.container{
+	margin: 0;
+	width:1400px;
+	height: 100vh;
+	font-size: 12px;
+}
+.lateral-menu{
+	position: relative;
+	width: 250px;
+	height: 999px;
+	background-color: #262626;
+	float: left;
+	list-style: none;
+}
+.menu-itens{
+	position: static;
+	color: #ffffff;
+	text-align: center;
+	font-size: 26px;
+}
+.menu-itens h1{
+	padding-top: 50px;
+	font-family: serif;
+	font-size: 60px;
+}
+.menu-itens img{
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;
+}
+.menu-itens img:hover{
+	opacity: 1;
+}
+.menu-itens p:hover{
+	color: #a6a6a6;
+}
+a:visited{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+.txtarea{
+	width: 500px;
+	height: 400px;
+	background-color: blue;
+	float:left;
+	margin-left: 300px;
+	margin-top: 300px;
+	border-radius: 10px;
+	
+
+}
+.area{
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #ffffff;
+
+}
+textarea{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 400px;
+	height: 150px;
+}
+.txtarea p{
+	margin-top: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+
+}
+button{
+	margin-top: 40px;
+	margin-left: 200px;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+}
+table{
+	border: 1px solid #ffffff;
+	float:right;
+}
+td{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	width: 100px;
+	height: 30px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	
+
+}

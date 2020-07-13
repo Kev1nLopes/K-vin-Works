@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #000000;
+}
+.container{
+	margin: 0;
+	width:1400px;
+	height: 100vh;
+	font-size: 12px;
+}
+.lateral-menu{
+	position: relative;
+	width: 250px;
+	height: 999px;
+	background-color: #262626;
+	float: left;
+	list-style: none;
+}
+.menu-itens{
+	position: static;
+	color: #ffffff;
+	text-align: center;
+	font-size: 26px;
+}
+.menu-itens h1{
+	padding-top: 50px;
+	font-family: serif;
+	font-size: 60px;
+}
+.menu-itens img{
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;
+}
+.menu-itens img:hover{
+	opacity: 1;
+}
+.menu-itens p:hover{
+	color: #a6a6a6;
+}
+a:visited{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+label{
+	color:#ffffff;
+	float:left;
+	clear:both;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.formulario p{
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 40px;
+	color: #ffffff;
+}
+
+
+
+
+input{
+	height: 30px;
+	width: 300px;
+	border-radius: 10px;
+}
+input:nth-child(1){
+	margin-left: 10px;
+}
+
+.formulario{
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	background-color: #007399;
+	margin-left: 300px;
+	margin-top: 150px;
+	border-radius: 20px;
+}
+.formulario h1{
+	font-size: 30px;
+	text-align: center;
+
+}
+button{
+	float:left;
+	margin-left: 200px;
+	margin-top: 50px;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+
+}
+h3{
+	margin-top: 10px;
+	position: relative;
+}
+table{
+	border: 1px solid #ffffff;
+	float:right;
+}
+td{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	width: 100px;
+	height: 30px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	
+
+}
+.formulario a{
+	width: 100px;
+	height: 30px;
+	background-color: #e0e0eb;
+	float:left;
+	clear:both;
+	margin-left: 200px;
+	margin-top: 30px;
+	border-radius: 10px;
+	color:#000000;
+	text-align: center;
+	color:#ffffff;
+	font-size: 16px;
+}
+.formulario a.button {
+    text-decoration: none;
+    color: initial;
+}
+input#foto{
+	margin-top: 10px;
+}
